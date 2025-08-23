@@ -65,7 +65,7 @@ body {
 }
 
 .nav-links.active {
-    height: 100vh;
+    height: 50vh;
     position: fixed;
     top: 4.5rem;
     bottom: 0;
@@ -716,3 +716,4 @@ button:focus {
     outline-offset: 2px;
 
 }
+
