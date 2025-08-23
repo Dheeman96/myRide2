@@ -681,6 +681,15 @@ body {
     .container {
         padding: 0 15px;
     }
+
+    section {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    main {
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -716,4 +725,5 @@ button:focus {
     outline-offset: 2px;
 
 }
+
 
