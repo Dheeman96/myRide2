@@ -64,6 +64,21 @@ body {
     color: #1E40AF;
 }
 
+.nav-links.active {
+    height: 100vh;
+    position: fixed;
+    top: 4.5rem;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 999;
+    background: #f8f9fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 4rem;
+}
+
 .cta-button {
     background: linear-gradient(135deg, #1E40AF, #3B82F6);
     color: white !important;
@@ -699,4 +714,5 @@ a:focus,
 button:focus {
     outline: 2px solid #F59E0B;
     outline-offset: 2px;
+
 }
