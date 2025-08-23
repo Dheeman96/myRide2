@@ -688,7 +688,7 @@ body {
     }
 
     main {
-        margin-top: 2rem;
+        margin-top: 5rem;
     }
 }
 
@@ -725,5 +725,6 @@ button:focus {
     outline-offset: 2px;
 
 }
+
 
 
